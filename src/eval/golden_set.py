@@ -70,10 +70,10 @@ GOLDEN_SET: list[CasÉval] = [
             "ok", "AC/DC",
             "SELECT ar.Name FROM Album al JOIN Artist ar ON al.ArtistId=ar.ArtistId WHERE al.Title='Let There Be Rock'",
             "Jointure, retour scalaire textuel."),
-    CasÉval("p2-playlist-music", 2, "Combien de morceaux la playlist « Music » contient-elle ?",
-            "ok", 6580,
-            "SELECT COUNT(*) FROM PlaylistTrack pt JOIN Playlist p ON pt.PlaylistId=p.PlaylistId WHERE p.Name='Music'",
-            "Jointure table de liaison PlaylistTrack."),
+    CasÉval("p2-playlist-grunge", 2, "Combien de morceaux la playlist « Grunge » contient-elle ?",
+            "ok", 15,
+            "SELECT COUNT(*) FROM PlaylistTrack pt JOIN Playlist p ON pt.PlaylistId=p.PlaylistId WHERE p.Name='Grunge'",
+            "Jointure table de liaison PlaylistTrack. « Grunge » est un nom de playlist UNIQUE (contrairement à « Music », dupliquée → ambiguë)."),
 
     # ── Palier 3 — ambiguïté : l'hypothèse doit être ANNONCÉE ────────────────
     CasÉval("p3-meilleur-client", 3, "Qui est notre meilleur client ?",

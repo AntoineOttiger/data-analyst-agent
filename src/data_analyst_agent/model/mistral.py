@@ -17,7 +17,15 @@ from dataclasses import dataclass, field
 from functools import lru_cache
 
 from langchain_core.messages import BaseMessage
+from langchain_core.rate_limiters import InMemoryRateLimiter
 from langchain_mistralai import ChatMistralAI
+
+# Mistral free tier ≈ 1 req/s : throttle proactif partagé pour éviter les 429.
+_LIMITEUR = InMemoryRateLimiter(
+    requests_per_second=float(os.environ.get("MISTRAL_RPS", "0.5")),
+    check_every_n_seconds=0.1,
+    max_bucket_size=1,
+)
 
 # LangChain confiné : on ré-exporte un alias neutre pour le typage du graphe.
 Message = BaseMessage
@@ -65,7 +73,9 @@ def _outil_openai(spec: ToolSpec) -> dict:
 def _llm(modèle: str, temperature: float):
     # La clé vient de l'environnement (MISTRAL_API_KEY), chargée depuis .env par
     # l'appelant (eval.run). max_retries : robustesse réseau (SCOPE §5, retries).
-    return ChatMistralAI(model=modèle, temperature=temperature, max_retries=3)
+    return ChatMistralAI(
+        model=modèle, temperature=temperature, max_retries=6, rate_limiter=_LIMITEUR
+    )
 
 
 def call_model(

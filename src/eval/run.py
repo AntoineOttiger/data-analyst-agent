@@ -12,6 +12,13 @@ from __future__ import annotations
 
 import sys
 
+# Console Windows en cp1252 : forcer UTF-8 pour les marques ✓/✗ et les accents.
+for _flux in (sys.stdout, sys.stderr):
+    try:
+        _flux.reconfigure(encoding="utf-8")  # type: ignore[union-attr]
+    except (AttributeError, ValueError):
+        pass
+
 from dotenv import load_dotenv
 
 from .golden_set import GOLDEN_SET
@@ -30,10 +37,12 @@ def lancer() -> tuple[list[Résultat], bool]:
     for cas in GOLDEN_SET:
         try:
             rép = ask(cas.question)
-        except Exception as e:  # noqa: BLE001 — une panne franche doit être visible dans le rapport
-            print(f"  [{cas.id}] EXCEPTION: {type(e).__name__}: {e}", file=sys.stderr)
-            raise
-        r = scorer_cas(cas, rép)
+            r = scorer_cas(cas, rép)
+        except Exception as e:  # noqa: BLE001
+            # Panne transitoire (ex. 429) : on la consigne comme échec du cas et
+            # on continue — un rapport complet vaut mieux qu'une passe perdue.
+            from .scorer import Résultat as _R
+            r = _R(cas, False, f"EXCEPTION {type(e).__name__}: {e}")
         résultats.append(r)
         marque = "✓" if r.réussi else "✗"
         print(f"  {marque} [P{cas.palier} {cas.id}] {r.détail}")
