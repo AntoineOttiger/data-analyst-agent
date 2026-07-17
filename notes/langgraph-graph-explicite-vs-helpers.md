@@ -11,10 +11,10 @@
 
 ## Les deux niveaux d'abstraction
 
-| Niveau | Ce que tu écris | Ce que le framework fournit |
-|---|---|---|
-| **Helper préfabriqué** (`create_sql_agent`, `create_react_agent`, `NLSQLTableQueryEngine`) | Une config : la connexion DB, le modèle, éventuellement un prompt. | **Tout** : la boucle, la décision d'appeler un outil, le format de sortie, la gestion d'erreur, l'arrêt. |
-| **Graphe explicite** (LangGraph : `StateGraph`, nœuds, arêtes) | Les **nœuds** (appeler le modèle, exécuter l'outil, formater la réponse), les **arêtes** (qui décide du prochain nœud), et le **state** partagé. | L'**orchestration** (exécuter le graphe, router selon les arêtes), la persistance du state, l'intégration multi-provider, la normalisation du function-calling. |
+| Niveau                                                                                                   | Ce que tu écris                                                                                                                                                          | Ce que le framework fournit                                                                                                                                              |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Helper préfabriqué** (`create_sql_agent`, `create_react_agent`, `NLSQLTableQueryEngine`) | Une config : la connexion DB, le modèle, éventuellement un prompt.                                                                                                      | **Tout** : la boucle, la décision d'appeler un outil, le format de sortie, la gestion d'erreur, l'arrêt.                                                         |
+| **Graphe explicite** (LangGraph : `StateGraph`, nœuds, arêtes)                                 | Les**nœuds** (appeler le modèle, exécuter l'outil, formater la réponse), les **arêtes** (qui décide du prochain nœud), et le **state** partagé. | L'**orchestration** (exécuter le graphe, router selon les arêtes), la persistance du state, l'intégration multi-provider, la normalisation du function-calling. |
 
 Rappel important : côté LangChain, `create_sql_agent` est aujourd'hui **déprécié**. La
 voie recommandée est justement le graphe explicite. Le « préfabriqué magique » n'est
@@ -26,6 +26,7 @@ la tentation de trop déléguer.
 ## Avantages du graphe explicite
 
 ### 1. Le type de retour est le tien
+
 C'est la raison n°1 pour ce projet. On a décidé que l'agent renvoie un objet à cinq
 champs :
 
@@ -44,6 +45,7 @@ Un helper préfabriqué renvoie une **string**. On ne peut pas y greffer `donné
 place ce type au centre : c'est le `state` qui traverse les nœuds.
 
 ### 2. Le refus de répondre (palier 5) devient possible
+
 On veut que l'agent réponde `statut="échec"` quand la donnée n'est pas dans la base
 (« quelle est la météo à Paris ? »). Un helper suppose toujours qu'une réponse existe et
 la fabrique. Le graphe explicite permet une arête conditionnelle « la donnée est-elle
@@ -51,22 +53,26 @@ atteignable ? → nœud d'échec ». C'est un différenciateur du projet, imposs
 proprement avec un préfabriqué.
 
 ### 3. La double troncature (50 lignes → LLM, 10 000 → `données`)
+
 Deux consommateurs du résultat d'une requête (le LLM, la future GUI) ont des besoins
 différents. Le graphe explicite laisse un nœud « exécuter la requête » appliquer les deux
 politiques de troncature séparément. Un helper applique une seule vue, généralement tout
 vers le contexte du LLM.
 
 ### 4. Debugging transparent
+
 Quand un cas piège (palier 4) échoue, on doit voir exactement ce qui est parti dans le
 prompt. Dans un nœud, c'est un `print` / un log. Dans un helper, il faut remonter
 plusieurs couches de callbacks pour intercepter le prompt réel.
 
 ### 5. Contrôle du budget et de l'arrêt
+
 La boucle ReAct a un budget de tours. Le graphe explicite rend ce budget visible (un
 compteur dans le state, une arête « budget dépassé → `statut="budget_dépassé"` »). Le
 helper cache sa condition d'arrêt.
 
 ### 6. Valeur portfolio réelle
+
 Un repo qui montre un graphe LangGraph écrit à la main, avec éval et refus de répondre,
 démontre une compétence. Un repo qui appelle `create_sql_agent(db, llm)` démontre qu'on
 sait lire un tutoriel. L'objectif d'employabilité est mieux servi par le niveau explicite.
@@ -76,18 +82,22 @@ sait lire un tutoriel. L'objectif d'employabilité est mieux servi par le niveau
 ## Inconvénients du graphe explicite
 
 ### 1. Plus de code au démarrage
+
 Il faut écrire les nœuds, les arêtes, le schéma du state. ~150 lignes contre ~20. Le
 premier « ça répond » arrive plus tard.
 
 ### 2. Courbe d'apprentissage LangGraph
+
 `StateGraph`, réducteurs de state, arêtes conditionnelles, checkpointing : autant de
 concepts à absorber. Un helper les cache.
 
 ### 3. On réécrit des choses déjà résolues
+
 Le helper a déjà pensé à des cas limites (retry basique, formatage). En explicite, on les
 réimplémente — mais c'est aussi ce qui nous permet de les faire *à notre façon*.
 
 ### 4. Surface de bug plus grande
+
 Plus de code écrit = plus d'endroits où se tromper. La boucle, le budget, le routage sont
 sous notre responsabilité.
 
