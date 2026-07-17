@@ -1,0 +1,132 @@
+{
+  ".claude/settings.json": {
+    "mtime": 1784314404.0758095,
+    "ast_hash": "67b91155950a99ee42da7c289704e137",
+    "semantic_hash": ""
+  },
+  "CLAUDE.md": {
+    "mtime": 1784312465.1187155,
+    "ast_hash": "edc36b402ecf0cf78bd3bd36adf48b0c",
+    "semantic_hash": ""
+  },
+  "docs/DESIGN.md": {
+    "mtime": 1784311980.9181902,
+    "ast_hash": "a1af833fac73dd208fbc8dce3d101a3c",
+    "semantic_hash": ""
+  },
+  "docs/SCOPE.md": {
+    "mtime": 1784310173.4553926,
+    "ast_hash": "c16a33d32697ada6783fba0567e43df8",
+    "semantic_hash": ""
+  },
+  "notes/langgraph-graph-explicite-vs-helpers.md": {
+    "mtime": 1784312182.7505562,
+    "ast_hash": "952a2d2f15622422cf3f6b842b2cbc5b",
+    "semantic_hash": ""
+  },
+  ".claude/hooks/block-dangerous-git.sh": {
+    "mtime": 1784314474.7819731,
+    "ast_hash": "f5632436a8831abd4a1688a0be8724be",
+    "semantic_hash": ""
+  },
+  "pyproject.toml": {
+    "mtime": 1784314678.2008548,
+    "ast_hash": "07e7c10ed10a0bfe1e5219cdf62f6bae",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/__init__.py": {
+    "mtime": 1784314692.7017798,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/db/__init__.py": {
+    "mtime": 1784314838.5725925,
+    "ast_hash": "9d475470f7bbfabd5213903e745cdf9a",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/db/base.py": {
+    "mtime": 1784314804.448467,
+    "ast_hash": "4d5dbaa1b2d59398d9590bf495fe42f7",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/db/result.py": {
+    "mtime": 1784314771.4446616,
+    "ast_hash": "d113fca45f34fa9fff80e36ee0114d25",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/db/sqlite.py": {
+    "mtime": 1784314830.79684,
+    "ast_hash": "0eb758737263a9b50736859dc95e8773",
+    "semantic_hash": ""
+  },
+  "src/eval/__init__.py": {
+    "mtime": 1784315351.6291633,
+    "ast_hash": "4c5f91d5dab2a039136342c6d0287abd",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/response.py": {
+    "mtime": 1784314977.335213,
+    "ast_hash": "25856d1a2cdc33012a3c8aa2d22c727d",
+    "semantic_hash": ""
+  },
+  "src/eval/golden_set.py": {
+    "mtime": 1784316342.531863,
+    "ast_hash": "2075c4f8450487dbfbbc37783653ec78",
+    "semantic_hash": ""
+  },
+  "src/eval/run.py": {
+    "mtime": 1784316099.0999012,
+    "ast_hash": "87155c83f908e271482e5dbdaa32b649",
+    "semantic_hash": ""
+  },
+  "src/eval/scorer.py": {
+    "mtime": 1784315301.320646,
+    "ast_hash": "ea318787fb75d350a942d28bca0c9aff",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/model/__init__.py": {
+    "mtime": 1784315561.592088,
+    "ast_hash": "d9b10113d4871ebd03fb2f603b557e3e",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/model/mistral.py": {
+    "mtime": 1784316348.076252,
+    "ast_hash": "43204533c80cd9288ed5282456687a30",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/agent/__init__.py": {
+    "mtime": 1784315863.953611,
+    "ast_hash": "c43c533ca756cdd480bfa4929b2b9a15",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/agent/graph.py": {
+    "mtime": 1784315857.6320467,
+    "ast_hash": "f0ff531fdcde57d51c2053d80d669806",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/agent/prompt.py": {
+    "mtime": 1784316370.7826898,
+    "ast_hash": "342b17879d583ab04ed99ea756beff06",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/agent/tools.py": {
+    "mtime": 1784315749.5477674,
+    "ast_hash": "b681f6d871f80c5783fe64b5e9e3d3a3",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/agent/dialects/ansi.md": {
+    "mtime": 1784315704.4330616,
+    "ast_hash": "0cb5253641d7ac00c71957513a06ec3f",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/agent/dialects/postgres.md": {
+    "mtime": 1784315699.1188197,
+    "ast_hash": "a7eb62c7068e2eee4c461e3c55590ff9",
+    "semantic_hash": ""
+  },
+  "src/data_analyst_agent/agent/dialects/sqlite.md": {
+    "mtime": 1784315693.0231848,
+    "ast_hash": "203b92861255e3abaf58af3a8d00030a",
+    "semantic_hash": ""
+  }
+}
