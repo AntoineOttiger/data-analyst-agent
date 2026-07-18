@@ -21,6 +21,12 @@ env/
 .coverage
 htmlcov/
 
+# Frontend (Node) — dist/ déjà couvert plus haut
+node_modules/
+frontend/dist/
+frontend/.tsnode/
+*.tsbuildinfo
+
 # IDE / OS
 .idea/
 .vscode/

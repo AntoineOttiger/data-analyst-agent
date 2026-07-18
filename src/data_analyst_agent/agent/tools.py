@@ -56,11 +56,19 @@ SPECS: list[ToolSpec] = [
 
 @dataclass
 class ExécOutil:
-    """Résultat d'exécution d'un outil non terminal, pour le nœud `outils`."""
+    """Résultat d'exécution d'un outil non terminal, pour le nœud `outils`.
+
+    Porte aussi de quoi produire un événement de streaming (`RésultatOutil`) :
+    `nom` de l'outil, `statut` humain, `lignes` lues, `message` d'erreur brut.
+    """
 
     texte: str                     # sérialisation pour le ToolMessage (ce que voit le LLM)
+    nom: str = ""                  # nom de l'outil appelé (pour le streaming)
     sql: str | None = None         # rempli si run_query → accumulé dans State.sql_exécuté
     résultat: list[dict] | None = None  # rempli si run_query réussit → dernier_résultat (GUI)
+    statut: str = "succès"         # "succès" | "échec" | "timeout" (pour le streaming)
+    lignes: int | None = None      # nb de lignes lues si succès (pour le streaming)
+    message: str | None = None     # message brut du moteur si échec/timeout (pour le streaming)
 
 
 # ── sérialisation d'un Result pour le LLM (tronquée) ────────────────────────
@@ -92,23 +100,27 @@ def exécuter(db: Database, appel: AppelOutil) -> ExécOutil:
     jamais ici (intercepté au routeur)."""
     if appel.nom == LIST_TABLES:
         tables = db.list_tables()
-        return ExécOutil(texte="Tables : " + ", ".join(tables))
+        return ExécOutil(texte="Tables : " + ", ".join(tables), nom=LIST_TABLES)
 
     if appel.nom == GET_SCHEMA:
         table = str(appel.args.get("table", ""))
-        return ExécOutil(texte=db.get_schema(table))
+        return ExécOutil(texte=db.get_schema(table), nom=GET_SCHEMA)
 
     if appel.nom == RUN_QUERY:
         sql = str(appel.args.get("sql", ""))
         issue = db.run_query(sql)
         match issue:                       # frontière d'erreurs : valeur, pas exception
             case Result() as res:
-                return ExécOutil(texte=_sérialiser_result(res), sql=sql,
-                                 résultat=_lignes_dicts(res))
+                return ExécOutil(texte=_sérialiser_result(res), nom=RUN_QUERY, sql=sql,
+                                 résultat=_lignes_dicts(res), statut="succès",
+                                 lignes=res.lignes_lues)
             case Échec() as éch:
-                return ExécOutil(texte=_sérialiser_échec(éch), sql=sql)
+                statut = "timeout" if éch.genre == "timeout" else "échec"
+                return ExécOutil(texte=_sérialiser_échec(éch), nom=RUN_QUERY, sql=sql,
+                                 statut=statut, message=éch.message)
 
-    return ExécOutil(texte=f"ERREUR : outil inconnu {appel.nom!r}")
+    return ExécOutil(texte=f"ERREUR : outil inconnu {appel.nom!r}",
+                     nom=appel.nom, statut="échec")
 
 
 def extraire_submit(appel: AppelOutil) -> dict:

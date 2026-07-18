@@ -32,6 +32,856 @@
       "norm_label": "block-dangerous-git.sh script"
     },
     {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_package",
+      "community": 16,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_package_name",
+      "community": 16,
+      "norm_label": "name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_package_private",
+      "community": 16,
+      "norm_label": "private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_package_version",
+      "community": 16,
+      "norm_label": "version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "frontend_package_type",
+      "community": 16,
+      "norm_label": "type"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_package_description",
+      "community": 16,
+      "norm_label": "description"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_package_scripts",
+      "community": 16,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_package_scripts_dev",
+      "community": 16,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "frontend_package_scripts_build",
+      "community": 16,
+      "norm_label": "build"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "frontend_package_scripts_preview",
+      "community": 16,
+      "norm_label": "preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies",
+      "community": 16,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "highlight.js",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_highlight_js",
+      "community": 16,
+      "norm_label": "highlight.js"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_react",
+      "community": 16,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_react_dom",
+      "community": 16,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "react-markdown",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "frontend_package_dependencies_react_markdown",
+      "community": 16,
+      "norm_label": "react-markdown"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies",
+      "community": 16,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_types_react",
+      "community": 16,
+      "norm_label": "@types/react"
+    },
+    {
+      "label": "@types/react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_types_react_dom",
+      "community": 16,
+      "norm_label": "@types/react-dom"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_vitejs_plugin_react",
+      "community": 16,
+      "norm_label": "@vitejs/plugin-react"
+    },
+    {
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_typescript",
+      "community": 16,
+      "norm_label": "typescript"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "frontend_package_devdependencies_vite",
+      "community": 16,
+      "norm_label": "vite"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_app",
+      "community": 15,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "Phase",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_app_phase",
+      "community": 15,
+      "norm_label": "phase"
+    },
+    {
+      "label": "EXEMPLES",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "src_app_exemples",
+      "community": 15,
+      "norm_label": "exemples"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "src_app_app",
+      "community": 15,
+      "norm_label": "app()"
+    },
+    {
+      "label": "api.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/api.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_api",
+      "community": 15,
+      "norm_label": "api.ts"
+    },
+    {
+      "label": "demanderFlux()",
+      "file_type": "code",
+      "source_file": "frontend/src/api.ts",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "src_api_demanderflux",
+      "community": 15,
+      "norm_label": "demanderflux()"
+    },
+    {
+      "label": "DataTable.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/DataTable.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_datatable",
+      "community": 15,
+      "norm_label": "datatable.tsx"
+    },
+    {
+      "label": "cellule()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/DataTable.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_datatable_cellule",
+      "community": 15,
+      "norm_label": "cellule()"
+    },
+    {
+      "label": "DataTable()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/DataTable.tsx",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "components_datatable_datatable",
+      "community": 15,
+      "norm_label": "datatable()"
+    },
+    {
+      "label": "ReasoningPanel.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_reasoningpanel",
+      "community": 15,
+      "norm_label": "reasoningpanel.tsx"
+    },
+    {
+      "label": "PASTILLE",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "components_reasoningpanel_pastille",
+      "community": 15,
+      "norm_label": "pastille"
+    },
+    {
+      "label": "LigneTrace()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "components_reasoningpanel_lignetrace",
+      "community": 15,
+      "norm_label": "lignetrace()"
+    },
+    {
+      "label": "ReasoningPanel()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "components_reasoningpanel_reasoningpanel",
+      "community": 15,
+      "norm_label": "reasoningpanel()"
+    },
+    {
+      "label": "ResultPanel.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_resultpanel",
+      "community": 15,
+      "norm_label": "resultpanel.tsx"
+    },
+    {
+      "label": "SqlAccord\u00e9on()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "components_resultpanel_sqlaccord\u00e9on",
+      "community": 15,
+      "norm_label": "sqlaccordeon()"
+    },
+    {
+      "label": "ResultPanel()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "components_resultpanel_resultpanel",
+      "community": 15,
+      "norm_label": "resultpanel()"
+    },
+    {
+      "label": "Sql.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Sql.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_sql",
+      "community": 15,
+      "norm_label": "sql.tsx"
+    },
+    {
+      "label": "Sql()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/Sql.tsx",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "components_sql_sql",
+      "community": 15,
+      "norm_label": "sql()"
+    },
+    {
+      "label": "StatusBadge.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/components/StatusBadge.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "components_statusbadge",
+      "community": 15,
+      "norm_label": "statusbadge.tsx"
+    },
+    {
+      "label": "LIBELL\u00c9S",
+      "file_type": "code",
+      "source_file": "frontend/src/components/StatusBadge.tsx",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "components_statusbadge_libell\u00e9s",
+      "community": 15,
+      "norm_label": "libelles"
+    },
+    {
+      "label": "StatusBadge()",
+      "file_type": "code",
+      "source_file": "frontend/src/components/StatusBadge.tsx",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "components_statusbadge_statusbadge",
+      "community": 15,
+      "norm_label": "statusbadge()"
+    },
+    {
+      "label": "events.ts",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_events",
+      "community": 15,
+      "norm_label": "events.ts"
+    },
+    {
+      "label": "StatutOutil",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "src_events_statutoutil",
+      "community": 15,
+      "norm_label": "statutoutil"
+    },
+    {
+      "label": "StatutFinal",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "src_events_statutfinal",
+      "community": 15,
+      "norm_label": "statutfinal"
+    },
+    {
+      "label": "Ligne",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "src_events_ligne",
+      "community": 15,
+      "norm_label": "ligne"
+    },
+    {
+      "label": "OutilAppel\u00e9",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "src_events_outilappel\u00e9",
+      "community": 15,
+      "norm_label": "outilappele"
+    },
+    {
+      "label": "R\u00e9sultatOutil",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "src_events_r\u00e9sultatoutil",
+      "community": 15,
+      "norm_label": "resultatoutil"
+    },
+    {
+      "label": "Hypoth\u00e8se",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "src_events_hypoth\u00e8se",
+      "community": 15,
+      "norm_label": "hypothese"
+    },
+    {
+      "label": "Final",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "src_events_final",
+      "community": 15,
+      "norm_label": "final"
+    },
+    {
+      "label": "\u00c9v\u00e9nement",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "src_events_\u00e9v\u00e9nement",
+      "community": 15,
+      "norm_label": "evenement"
+    },
+    {
+      "label": "\u00c9v\u00e9nementTrace",
+      "file_type": "code",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "src_events_\u00e9v\u00e9nementtrace",
+      "community": 15,
+      "norm_label": "evenementtrace"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "src_main",
+      "community": 15,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_tsconfig",
+      "community": 17,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions",
+      "community": 17,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "target",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_target",
+      "community": 17,
+      "norm_label": "target"
+    },
+    {
+      "label": "useDefineForClassFields",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_usedefineforclassfields",
+      "community": 17,
+      "norm_label": "usedefineforclassfields"
+    },
+    {
+      "label": "lib",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_lib",
+      "community": 17,
+      "norm_label": "lib"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_module",
+      "community": 17,
+      "norm_label": "module"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_skiplibcheck",
+      "community": 17,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_moduleresolution",
+      "community": 17,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowImportingTsExtensions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_allowimportingtsextensions",
+      "community": 17,
+      "norm_label": "allowimportingtsextensions"
+    },
+    {
+      "label": "resolveJsonModule",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_resolvejsonmodule",
+      "community": 17,
+      "norm_label": "resolvejsonmodule"
+    },
+    {
+      "label": "isolatedModules",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_isolatedmodules",
+      "community": 17,
+      "norm_label": "isolatedmodules"
+    },
+    {
+      "label": "moduleDetection",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_moduledetection",
+      "community": 17,
+      "norm_label": "moduledetection"
+    },
+    {
+      "label": "noEmit",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_noemit",
+      "community": 17,
+      "norm_label": "noemit"
+    },
+    {
+      "label": "jsx",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_jsx",
+      "community": 17,
+      "norm_label": "jsx"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_strict",
+      "community": 17,
+      "norm_label": "strict"
+    },
+    {
+      "label": "noUnusedLocals",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_nounusedlocals",
+      "community": 17,
+      "norm_label": "nounusedlocals"
+    },
+    {
+      "label": "noUnusedParameters",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L17",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_nounusedparameters",
+      "community": 17,
+      "norm_label": "nounusedparameters"
+    },
+    {
+      "label": "noFallthroughCasesInSwitch",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L18",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "community": 17,
+      "norm_label": "nofallthroughcasesinswitch"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_include",
+      "community": 17,
+      "norm_label": "include"
+    },
+    {
+      "label": "references",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_references",
+      "community": 17,
+      "norm_label": "references"
+    },
+    {
+      "label": "tsconfig.node.json",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node",
+      "community": 19,
+      "norm_label": "tsconfig.node.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions",
+      "community": 19,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "composite",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_composite",
+      "community": 19,
+      "norm_label": "composite"
+    },
+    {
+      "label": "skipLibCheck",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_skiplibcheck",
+      "community": 19,
+      "norm_label": "skiplibcheck"
+    },
+    {
+      "label": "module",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_module",
+      "community": 19,
+      "norm_label": "module"
+    },
+    {
+      "label": "moduleResolution",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_moduleresolution",
+      "community": 19,
+      "norm_label": "moduleresolution"
+    },
+    {
+      "label": "allowSyntheticDefaultImports",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
+      "community": 19,
+      "norm_label": "allowsyntheticdefaultimports"
+    },
+    {
+      "label": "strict",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_strict",
+      "community": 19,
+      "norm_label": "strict"
+    },
+    {
+      "label": "emitDeclarationOnly",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_emitdeclarationonly",
+      "community": 19,
+      "norm_label": "emitdeclarationonly"
+    },
+    {
+      "label": "outDir",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_compileroptions_outdir",
+      "community": 19,
+      "norm_label": "outdir"
+    },
+    {
+      "label": "include",
+      "file_type": "code",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "frontend_tsconfig_node_include",
+      "community": 19,
+      "norm_label": "include"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "frontend/vite.config.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "frontend_vite_config",
+      "community": 23,
+      "norm_label": "vite.config.ts"
+    },
+    {
       "label": "data-analyst-agent",
       "file_type": "code",
       "type": "package",
@@ -65,6 +915,96 @@
       "norm_label": "__init__.py"
     },
     {
+      "label": "events.py",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "agent_events",
+      "community": 9,
+      "norm_label": "events.py"
+    },
+    {
+      "label": "OutilAppel\u00e9",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "agent_events_outilappel\u00e9",
+      "community": 9,
+      "norm_label": "outilappele"
+    },
+    {
+      "label": "R\u00e9sultatOutil",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "agent_events_r\u00e9sultatoutil",
+      "community": 9,
+      "norm_label": "resultatoutil"
+    },
+    {
+      "label": "Hypoth\u00e8se",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "agent_events_hypoth\u00e8se",
+      "community": 9,
+      "norm_label": "hypothese"
+    },
+    {
+      "label": "Final",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "agent_events_final",
+      "community": 9,
+      "norm_label": "final"
+    },
+    {
+      "label": "Le mod\u00e8le a d\u00e9cid\u00e9 d'appeler un outil (\u00e9mis avant l'ex\u00e9cution).",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "agent_events_rationale_25",
+      "community": 9,
+      "norm_label": "le modele a decide d'appeler un outil (emis avant l'execution)."
+    },
+    {
+      "label": "Retour d'un `run_query` ex\u00e9cut\u00e9 : SQL tent\u00e9 + issue (DESIGN \u00a75).",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L34",
+      "_origin": "ast",
+      "id": "agent_events_rationale_34",
+      "community": 9,
+      "norm_label": "retour d'un `run_query` execute : sql tente + issue (design \u00a75)."
+    },
+    {
+      "label": "Une interpr\u00e9tation retenue par le mod\u00e8le en cas d'ambigu\u00eft\u00e9.",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "agent_events_rationale_45",
+      "community": 9,
+      "norm_label": "une interpretation retenue par le modele en cas d'ambiguite."
+    },
+    {
+      "label": "Dernier \u00e9v\u00e9nement : porte la `R\u00e9ponse` publique (drain-to-final).",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "agent_events_rationale_53",
+      "community": 9,
+      "norm_label": "dernier evenement : porte la `reponse` publique (drain-to-final)."
+    },
+    {
       "label": "graph.py",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
@@ -78,7 +1018,7 @@
       "label": "State",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L28",
+      "source_location": "L29",
       "_origin": "ast",
       "id": "agent_graph_state",
       "community": 9,
@@ -98,7 +1038,7 @@
       "label": "_n\u0153ud_agent()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L44",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "agent_graph_n\u0153ud_agent",
       "community": 9,
@@ -108,17 +1048,17 @@
       "label": "_faire_n\u0153ud_outils()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L67",
+      "source_location": "L69",
       "_origin": "ast",
       "id": "agent_graph_faire_n\u0153ud_outils",
-      "community": 9,
+      "community": 5,
       "norm_label": "_faire_n\u0153ud_outils()"
     },
     {
       "label": "route()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L95",
+      "source_location": "L101",
       "_origin": "ast",
       "id": "agent_graph_route",
       "community": 9,
@@ -128,17 +1068,17 @@
       "label": "construire_agent()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L105",
+      "source_location": "L111",
       "_origin": "ast",
       "id": "agent_graph_construire_agent",
-      "community": 9,
+      "community": 5,
       "norm_label": "construire_agent()"
     },
     {
       "label": "_agent_par_d\u00e9faut()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L121",
+      "source_location": "L127",
       "_origin": "ast",
       "id": "agent_graph_agent_par_d\u00e9faut",
       "community": 9,
@@ -148,21 +1088,21 @@
       "label": "_projeter()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L128",
+      "source_location": "L134",
       "_origin": "ast",
       "id": "agent_graph_projeter",
       "community": 9,
       "norm_label": "_projeter()"
     },
     {
-      "label": "ask()",
+      "label": "_\u00e9tat_initial()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L142",
+      "source_location": "L148",
       "_origin": "ast",
-      "id": "agent_graph_ask",
+      "id": "agent_graph_\u00e9tat_initial",
       "community": 9,
-      "norm_label": "ask()"
+      "norm_label": "_etat_initial()"
     },
     {
       "label": "Message",
@@ -171,16 +1111,56 @@
       "source_location": "",
       "_origin": "ast",
       "id": "message",
-      "community": 3,
+      "community": 9,
       "norm_label": "message"
+    },
+    {
+      "label": "_flux_agent()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L167",
+      "_origin": "ast",
+      "id": "agent_graph_flux_agent",
+      "community": 9,
+      "norm_label": "_flux_agent()"
+    },
+    {
+      "label": "_flux_outils()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L178",
+      "_origin": "ast",
+      "id": "agent_graph_flux_outils",
+      "community": 9,
+      "norm_label": "_flux_outils()"
+    },
+    {
+      "label": "ask_stream()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L186",
+      "_origin": "ast",
+      "id": "agent_graph_ask_stream",
+      "community": 9,
+      "norm_label": "ask_stream()"
+    },
+    {
+      "label": "ask()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "agent_graph_ask",
+      "community": 9,
+      "norm_label": "ask()"
     },
     {
       "label": "Circule dans le graphe, JAMAIS export\u00e9. \u2283 R\u00e9ponse (DESIGN \u00a73).",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L29",
+      "source_location": "L30",
       "_origin": "ast",
-      "id": "agent_graph_rationale_29",
+      "id": "agent_graph_rationale_30",
       "community": 9,
       "norm_label": "circule dans le graphe, jamais exporte. \u2283 reponse (design \u00a73)."
     },
@@ -188,29 +1168,59 @@
       "label": "Compile le graphe pour une connexion donn\u00e9e + le prompt (fixe pour la     connex",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L106",
+      "source_location": "L112",
       "_origin": "ast",
-      "id": "agent_graph_rationale_106",
-      "community": 9,
+      "id": "agent_graph_rationale_112",
+      "community": 5,
       "norm_label": "compile le graphe pour une connexion donnee + le prompt (fixe pour la     connex"
     },
     {
       "label": "Projette le State final vers les 5 champs publics de R\u00e9ponse.",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L129",
+      "source_location": "L135",
       "_origin": "ast",
-      "id": "agent_graph_rationale_129",
+      "id": "agent_graph_rationale_135",
       "community": 9,
       "norm_label": "projette le state final vers les 5 champs publics de reponse."
+    },
+    {
+      "label": "Traduit un update du n\u0153ud `agent` en \u00e9v\u00e9nements (outils appel\u00e9s, hypoth\u00e8ses).",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L168",
+      "_origin": "ast",
+      "id": "agent_graph_rationale_168",
+      "community": 9,
+      "norm_label": "traduit un update du n\u0153ud `agent` en evenements (outils appeles, hypotheses)."
+    },
+    {
+      "label": "Traduit un update du n\u0153ud `outils` : un R\u00e9sultatOutil par run_query ex\u00e9cut\u00e9.",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L179",
+      "_origin": "ast",
+      "id": "agent_graph_rationale_179",
+      "community": 9,
+      "norm_label": "traduit un update du n\u0153ud `outils` : un resultatoutil par run_query execute."
+    },
+    {
+      "label": "Primitive publique du module agent : diffuse la trace ReAct en direct.      \u00c9met",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L189",
+      "_origin": "ast",
+      "id": "agent_graph_rationale_189",
+      "community": 9,
+      "norm_label": "primitive publique du module agent : diffuse la trace react en direct.      emet"
     },
     {
       "label": "Interface publique du module agent. Fonction (presque) pure : pose une     quest",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L143",
+      "source_location": "L219",
       "_origin": "ast",
-      "id": "agent_graph_rationale_143",
+      "id": "agent_graph_rationale_219",
       "community": 9,
       "norm_label": "interface publique du module agent. fonction (presque) pure : pose une     quest"
     },
@@ -221,7 +1231,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "agent_prompt",
-      "community": 9,
+      "community": 21,
       "norm_label": "prompt.py"
     },
     {
@@ -231,7 +1241,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "agent_prompt_fiche_dialecte",
-      "community": 9,
+      "community": 21,
       "norm_label": "_fiche_dialecte()"
     },
     {
@@ -241,7 +1251,7 @@
       "source_location": "L61",
       "_origin": "ast",
       "id": "agent_prompt_construire_prompt_syst\u00e8me",
-      "community": 9,
+      "community": 21,
       "norm_label": "construire_prompt_systeme()"
     },
     {
@@ -251,7 +1261,7 @@
       "source_location": "L54",
       "_origin": "ast",
       "id": "agent_prompt_rationale_54",
-      "community": 9,
+      "community": 21,
       "norm_label": "selectionne la fiche du dialecte, repli sur ansi.md si absente (scope \u00a710)."
     },
     {
@@ -278,7 +1288,7 @@
       "label": "_lignes_dicts()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L67",
+      "source_location": "L75",
       "_origin": "ast",
       "id": "agent_tools_lignes_dicts",
       "community": 5,
@@ -288,7 +1298,7 @@
       "label": "_s\u00e9rialiser_result()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L72",
+      "source_location": "L80",
       "_origin": "ast",
       "id": "agent_tools_s\u00e9rialiser_result",
       "community": 5,
@@ -298,7 +1308,7 @@
       "label": "_s\u00e9rialiser_\u00e9chec()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L85",
+      "source_location": "L93",
       "_origin": "ast",
       "id": "agent_tools_s\u00e9rialiser_\u00e9chec",
       "community": 5,
@@ -308,7 +1318,7 @@
       "label": "ex\u00e9cuter()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L90",
+      "source_location": "L98",
       "_origin": "ast",
       "id": "agent_tools_ex\u00e9cuter",
       "community": 5,
@@ -318,29 +1328,29 @@
       "label": "extraire_submit()",
       "file_type": "code",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L114",
+      "source_location": "L126",
       "_origin": "ast",
       "id": "agent_tools_extraire_submit",
-      "community": 9,
+      "community": 5,
       "norm_label": "extraire_submit()"
     },
     {
-      "label": "R\u00e9sultat d'ex\u00e9cution d'un outil non terminal, pour le n\u0153ud `outils`.",
+      "label": "R\u00e9sultat d'ex\u00e9cution d'un outil non terminal, pour le n\u0153ud `outils`.      Porte",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L59",
       "_origin": "ast",
       "id": "agent_tools_rationale_59",
       "community": 5,
-      "norm_label": "resultat d'execution d'un outil non terminal, pour le n\u0153ud `outils`."
+      "norm_label": "resultat d'execution d'un outil non terminal, pour le n\u0153ud `outils`.      porte"
     },
     {
       "label": "Result.lignes (list[tuple]) \u2192 list[dict], forme attendue par la GUI.",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L68",
+      "source_location": "L76",
       "_origin": "ast",
-      "id": "agent_tools_rationale_68",
+      "id": "agent_tools_rationale_76",
       "community": 5,
       "norm_label": "result.lignes (list[tuple]) \u2192 list[dict], forme attendue par la gui."
     },
@@ -348,9 +1358,9 @@
       "label": "Ex\u00e9cute list_tables / get_schema / run_query. submit_answer n'arrive     jamais",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L91",
+      "source_location": "L99",
       "_origin": "ast",
-      "id": "agent_tools_rationale_91",
+      "id": "agent_tools_rationale_99",
       "community": 5,
       "norm_label": "execute list_tables / get_schema / run_query. submit_answer n'arrive     jamais"
     },
@@ -358,11 +1368,201 @@
       "label": "Extrait les champs s\u00e9mantiques d'un appel submit_answer (donn\u00e9es exclue :     re",
       "file_type": "rationale",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L115",
+      "source_location": "L127",
       "_origin": "ast",
-      "id": "agent_tools_rationale_115",
-      "community": 9,
+      "id": "agent_tools_rationale_127",
+      "community": 5,
       "norm_label": "extrait les champs semantiques d'un appel submit_answer (donnees exclue :     re"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_init",
+      "community": 18,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "__main__.py",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/__main__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_main",
+      "community": 22,
+      "norm_label": "__main__.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/__main__.py",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "api_main_main",
+      "community": 22,
+      "norm_label": "main()"
+    },
+    {
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_app",
+      "community": 18,
+      "norm_label": "app.py"
+    },
+    {
+      "label": "QuestionEntr\u00e9e",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "api_app_questionentr\u00e9e",
+      "community": 18,
+      "norm_label": "questionentree"
+    },
+    {
+      "label": "BaseModel",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "basemodel",
+      "community": 18,
+      "norm_label": "basemodel"
+    },
+    {
+      "label": "_sse()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "api_app_sse",
+      "community": 18,
+      "norm_label": "_sse()"
+    },
+    {
+      "label": "_flux_sse()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "api_app_flux_sse",
+      "community": 18,
+      "norm_label": "_flux_sse()"
+    },
+    {
+      "label": "cr\u00e9er_app()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "api_app_cr\u00e9er_app",
+      "community": 18,
+      "norm_label": "creer_app()"
+    },
+    {
+      "label": "FastAPI",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "fastapi",
+      "community": 18,
+      "norm_label": "fastapi"
+    },
+    {
+      "label": "Pydantic en ENTR\u00c9E seulement (d\u00e9cision 4). Le seul champ du fil montant.",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "api_app_rationale_37",
+      "community": 18,
+      "norm_label": "pydantic en entree seulement (decision 4). le seul champ du fil montant."
+    },
+    {
+      "label": "S\u00e9rialise un objet en un \u00e9v\u00e9nement SSE (`data: <json>\\\\n\\\\n`).      `ensure_asci",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "api_app_rationale_43",
+      "community": 18,
+      "norm_label": "serialise un objet en un evenement sse (`data: <json>\\\\n\\\\n`).      `ensure_asci"
+    },
+    {
+      "label": "G\u00e9n\u00e9rateur SSE : it\u00e8re `ask_stream()` et traduit chaque \u00e9v\u00e9nement.      G\u00e9n\u00e9rate",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "api_app_rationale_52",
+      "community": 18,
+      "norm_label": "generateur sse : itere `ask_stream()` et traduit chaque evenement.      generate"
+    },
+    {
+      "label": "translate.py",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "api_translate",
+      "community": 9,
+      "norm_label": "translate.py"
+    },
+    {
+      "label": "r\u00e9ponse_en_dict()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "api_translate_r\u00e9ponse_en_dict",
+      "community": 18,
+      "norm_label": "reponse_en_dict()"
+    },
+    {
+      "label": "Any",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "any",
+      "community": 18,
+      "norm_label": "any"
+    },
+    {
+      "label": "\u00e9v\u00e9nement_en_dict()",
+      "file_type": "code",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "api_translate_\u00e9v\u00e9nement_en_dict",
+      "community": 18,
+      "norm_label": "evenement_en_dict()"
+    },
+    {
+      "label": "Projette une `R\u00e9ponse` FR vers le contrat JSON ascii/anglais.",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "api_translate_rationale_28",
+      "community": 18,
+      "norm_label": "projette une `reponse` fr vers le contrat json ascii/anglais."
+    },
+    {
+      "label": "Traduit un `\u00c9v\u00e9nement` maison en objet JSON ascii pour le fil SSE.      Le champ",
+      "file_type": "rationale",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "api_translate_rationale_39",
+      "community": 18,
+      "norm_label": "traduit un `evenement` maison en objet json ascii pour le fil sse.      le champ"
     },
     {
       "label": "__init__.py",
@@ -601,7 +1801,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "db_sqlite_sqlitedatabase_init",
-      "community": 9,
+      "community": 5,
       "norm_label": ".__init__()"
     },
     {
@@ -611,7 +1811,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "path",
-      "community": 9,
+      "community": 5,
       "norm_label": "path"
     },
     {
@@ -661,7 +1861,7 @@
       "source_location": "L97",
       "_origin": "ast",
       "id": "db_sqlite_connect_sqlite",
-      "community": 9,
+      "community": 5,
       "norm_label": "connect_sqlite()"
     },
     {
@@ -701,7 +1901,7 @@
       "source_location": "L100",
       "_origin": "ast",
       "id": "db_sqlite_rationale_100",
-      "community": 9,
+      "community": 5,
       "norm_label": "ouvre chinook (par defaut) en lecture seule. `chemin` en parametre, jamais     e"
     },
     {
@@ -741,7 +1941,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "model_mistral_appeloutil",
-      "community": 3,
+      "community": 5,
       "norm_label": "appeloutil"
     },
     {
@@ -1115,6 +2315,96 @@
       "norm_label": "graphify"
     },
     {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 6,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "data-analyst-agent",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_data_analyst_agent",
+      "community": 6,
+      "norm_label": "data-analyst-agent"
+    },
+    {
+      "label": "Architecture (fronti\u00e8re de d\u00e9pendance)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "_origin": "ast",
+      "id": "readme_architecture_fronti\u00e8re_de_d\u00e9pendance",
+      "community": 6,
+      "norm_label": "architecture (frontiere de dependance)"
+    },
+    {
+      "label": "Pr\u00e9requis",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "readme_pr\u00e9requis",
+      "community": 6,
+      "norm_label": "prerequis"
+    },
+    {
+      "label": "Lancer",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "readme_lancer",
+      "community": 6,
+      "norm_label": "lancer"
+    },
+    {
+      "label": "Mode d\u00e9mo (un seul process, une commande)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "readme_mode_d\u00e9mo_un_seul_process_une_commande",
+      "community": 6,
+      "norm_label": "mode demo (un seul process, une commande)"
+    },
+    {
+      "label": "Mode d\u00e9veloppement (deux process, rechargement \u00e0 chaud)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "readme_mode_d\u00e9veloppement_deux_process_rechargement_\u00e0_chaud",
+      "community": 6,
+      "norm_label": "mode developpement (deux process, rechargement a chaud)"
+    },
+    {
+      "label": "Endpoints",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "_origin": "ast",
+      "id": "readme_endpoints",
+      "community": 6,
+      "norm_label": "endpoints"
+    },
+    {
+      "label": "\u00c9val",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "readme_\u00e9val",
+      "community": 6,
+      "norm_label": "eval"
+    },
+    {
       "label": "DESIGN.md",
       "file_type": "document",
       "source_file": "docs/DESIGN.md",
@@ -1303,6 +2593,76 @@
       "id": "docs_design_10_ordre_de_construction_raffine_scope_ordre_de_construction",
       "community": 7,
       "norm_label": "10. ordre de construction (raffine scope \u00a7\u00ab ordre de construction \u00bb)"
+    },
+    {
+      "label": "HANDOFF-frontend.md",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_handoff_frontend",
+      "community": 20,
+      "norm_label": "handoff-frontend.md"
+    },
+    {
+      "label": "Handoff \u2014 Impl\u00e9mentation frontend (data-analyst-agent)",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_handoff_frontend_handoff_impl\u00e9mentation_frontend_data_analyst_agent",
+      "community": 20,
+      "norm_label": "handoff \u2014 implementation frontend (data-analyst-agent)"
+    },
+    {
+      "label": "Contexte",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "docs_handoff_frontend_contexte",
+      "community": 20,
+      "norm_label": "contexte"
+    },
+    {
+      "label": "D\u00e9cisions verrouill\u00e9es (ne pas re-litiger)",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "docs_handoff_frontend_d\u00e9cisions_verrouill\u00e9es_ne_pas_re_litiger",
+      "community": 20,
+      "norm_label": "decisions verrouillees (ne pas re-litiger)"
+    },
+    {
+      "label": "Ordre de construction",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "docs_handoff_frontend_ordre_de_construction",
+      "community": 20,
+      "norm_label": "ordre de construction"
+    },
+    {
+      "label": "Pi\u00e8ges connus / points de vigilance",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "docs_handoff_frontend_pi\u00e8ges_connus_points_de_vigilance",
+      "community": 20,
+      "norm_label": "pieges connus / points de vigilance"
+    },
+    {
+      "label": "Suggested skills",
+      "file_type": "document",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "docs_handoff_frontend_suggested_skills",
+      "community": 20,
+      "norm_label": "suggested skills"
     },
     {
       "label": "SCOPE.md",
@@ -1665,6 +3025,96 @@
       "norm_label": "synthese pour ce projet"
     },
     {
+      "label": "rapport-implementation.md",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation",
+      "community": 11,
+      "norm_label": "rapport-implementation.md"
+    },
+    {
+      "label": "Rapport d'impl\u00e9mentation \u2014 data-analyst-agent",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "community": 11,
+      "norm_label": "rapport d'implementation \u2014 data-analyst-agent"
+    },
+    {
+      "label": "Verdict",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_verdict",
+      "community": 11,
+      "norm_label": "verdict"
+    },
+    {
+      "label": "Ce qui a \u00e9t\u00e9 construit (ordre du DESIGN \u00a710)",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_ce_qui_a_\u00e9t\u00e9_construit_ordre_du_design_10",
+      "community": 11,
+      "norm_label": "ce qui a ete construit (ordre du design \u00a710)"
+    },
+    {
+      "label": "D\u00e9cisions prises en autonomie (\u00e0 valider)",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_d\u00e9cisions_prises_en_autonomie_\u00e0_valider",
+      "community": 11,
+      "norm_label": "decisions prises en autonomie (a valider)"
+    },
+    {
+      "label": "Les 2 \u00e9checs r\u00e9siduels (sous le seuil de tol\u00e9rance, non bloquants)",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_les_2_\u00e9checs_r\u00e9siduels_sous_le_seuil_de_tol\u00e9rance_non_bloquants",
+      "community": 11,
+      "norm_label": "les 2 echecs residuels (sous le seuil de tolerance, non bloquants)"
+    },
+    {
+      "label": "Ce qui n'a **pas** \u00e9t\u00e9 test\u00e9",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_ce_qui_n_a_pas_\u00e9t\u00e9_test\u00e9",
+      "community": 11,
+      "norm_label": "ce qui n'a **pas** ete teste"
+    },
+    {
+      "label": "Configuration mise en place",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_configuration_mise_en_place",
+      "community": 11,
+      "norm_label": "configuration mise en place"
+    },
+    {
+      "label": "Pour relancer toi-m\u00eame",
+      "file_type": "document",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "notes_rapport_implementation_pour_relancer_toi_m\u00eame",
+      "community": 11,
+      "norm_label": "pour relancer toi-meme"
+    },
+    {
       "label": "ansi.md",
       "file_type": "document",
       "source_file": "src/data_analyst_agent/agent/dialects/ansi.md",
@@ -1737,6 +3187,1111 @@
       "target": "c_users_antoine_documents_prog_python_data_analyst_agent_claude_hooks_block_dangerous_git_sh__entry"
     },
     {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_package",
+      "target": "frontend_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_preview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_highlight_js",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_markdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_typescript",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitejs_plugin_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_reasoningpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_reasoningpanel_reasoningpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_resultpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "components_resultpanel_resultpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_api",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_api_demanderflux",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_exemples",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_app_phase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_events_\u00e9v\u00e9nement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_app",
+      "target": "src_events_\u00e9v\u00e9nementtrace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_main",
+      "target": "src_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "src_api",
+      "target": "src_api_demanderflux",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_api",
+      "target": "src_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/api.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_api",
+      "target": "src_events_\u00e9v\u00e9nement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/DataTable.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_datatable",
+      "target": "components_datatable_cellule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/DataTable.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_datatable",
+      "target": "components_datatable_datatable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/DataTable.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_datatable",
+      "target": "src_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/DataTable.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_datatable",
+      "target": "src_events_ligne",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_datatable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_datatable_datatable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_reasoningpanel",
+      "target": "components_reasoningpanel_lignetrace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_reasoningpanel",
+      "target": "components_reasoningpanel_pastille",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "components_reasoningpanel",
+      "target": "components_reasoningpanel_reasoningpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_reasoningpanel",
+      "target": "src_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ReasoningPanel.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_reasoningpanel",
+      "target": "src_events_\u00e9v\u00e9nementtrace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_resultpanel_resultpanel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_resultpanel_sqlaccord\u00e9on",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_sql_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_statusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "components_statusbadge_statusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "src_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/ResultPanel.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_resultpanel",
+      "target": "src_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/Sql.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_sql",
+      "target": "components_sql_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/StatusBadge.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_statusbadge",
+      "target": "components_statusbadge_libell\u00e9s",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/StatusBadge.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "components_statusbadge",
+      "target": "components_statusbadge_statusbadge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/StatusBadge.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_statusbadge",
+      "target": "src_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/components/StatusBadge.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_statusbadge",
+      "target": "src_events_statutfinal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_hypoth\u00e8se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_ligne",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_outilappel\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_r\u00e9sultatoutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_statutfinal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_statutoutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_\u00e9v\u00e9nement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/events.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "src_events",
+      "target": "src_events_\u00e9v\u00e9nementtrace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "agent_graph_ask_stream",
+      "target": "src_events_\u00e9v\u00e9nement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "agent_graph_flux_agent",
+      "target": "src_events_\u00e9v\u00e9nement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "agent_graph_flux_outils",
+      "target": "src_events_\u00e9v\u00e9nement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_tsconfig",
+      "target": "frontend_tsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "frontend_tsconfig",
+      "target": "frontend_tsconfig_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "frontend_tsconfig",
+      "target": "frontend_tsconfig_references",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_allowimportingtsextensions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_isolatedmodules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_jsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_lib",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_moduledetection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_noemit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_nofallthroughcasesinswitch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_nounusedlocals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_nounusedparameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_resolvejsonmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_target",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_compileroptions",
+      "target": "frontend_tsconfig_compileroptions_usedefineforclassfields",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node",
+      "target": "frontend_tsconfig_node_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node",
+      "target": "frontend_tsconfig_node_include",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_allowsyntheticdefaultimports",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_composite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_emitdeclarationonly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_moduleresolution",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_outdir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_skiplibcheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/tsconfig.node.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "frontend_tsconfig_node_compileroptions",
+      "target": "frontend_tsconfig_node_compileroptions_strict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "agent_init",
+      "target": "agent_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "agent_init",
+      "target": "agent_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "agent_init",
+      "target": "agent_events_hypoth\u00e8se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "agent_init",
+      "target": "agent_events_outilappel\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "agent_init",
+      "target": "agent_events_r\u00e9sultatoutil",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "re_exports",
       "context": "export",
       "confidence": "EXTRACTED",
@@ -1757,6 +4312,302 @@
       "confidence_score": 1.0,
       "source": "agent_init",
       "target": "agent_graph_ask"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/__init__.py",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "agent_init",
+      "target": "agent_graph_ask_stream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "agent_events",
+      "target": "agent_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "agent_events",
+      "target": "agent_events_hypoth\u00e8se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "agent_events",
+      "target": "agent_events_outilappel\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "agent_events",
+      "target": "agent_events_r\u00e9sultatoutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "agent_events",
+      "target": "data_analyst_agent_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "agent_events",
+      "target": "data_analyst_agent_response_r\u00e9ponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "agent_events_rationale_25",
+      "target": "agent_events_outilappel\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_events_outilappel\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "agent_graph_flux_agent",
+      "target": "agent_events_outilappel\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 0.8,
+      "source": "agent_graph_state",
+      "target": "agent_events_outilappel\u00e9",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "agent_events_outilappel\u00e9",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "agent_events_rationale_34",
+      "target": "agent_events_r\u00e9sultatoutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_events_r\u00e9sultatoutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "agent_graph_flux_outils",
+      "target": "agent_events_r\u00e9sultatoutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 0.8,
+      "source": "agent_graph_state",
+      "target": "agent_events_r\u00e9sultatoutil",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "agent_events_r\u00e9sultatoutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "agent_events_rationale_45",
+      "target": "agent_events_hypoth\u00e8se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_events_hypoth\u00e8se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "agent_graph_flux_agent",
+      "target": "agent_events_hypoth\u00e8se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 0.8,
+      "source": "agent_graph_state",
+      "target": "agent_events_hypoth\u00e8se",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "agent_events_hypoth\u00e8se",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/events.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "agent_events_rationale_53",
+      "target": "agent_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "agent_graph_ask_stream",
+      "target": "agent_events_final",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L22",
+      "weight": 0.8,
+      "source": "agent_graph_state",
+      "target": "agent_events_final",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "agent_events_final",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1782,6 +4633,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_graph_ask_stream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L105",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1797,6 +4658,26 @@
       "confidence_score": 1.0,
       "source": "agent_graph",
       "target": "agent_graph_faire_n\u0153ud_outils"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_graph_flux_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_graph_flux_outils",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -1837,6 +4718,16 @@
       "confidence_score": 1.0,
       "source": "agent_graph",
       "target": "agent_graph_state"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_graph_\u00e9tat_initial",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -1887,6 +4778,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "agent_graph",
+      "target": "agent_tools_ex\u00e9coutil",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L23",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1900,9 +4802,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph",
-      "target": "data_analyst_agent_response",
-      "confidence_score": 1.0
+      "target": "data_analyst_agent_response"
     },
     {
       "relation": "imports",
@@ -1911,9 +4813,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph",
-      "target": "data_analyst_agent_response_r\u00e9ponse",
-      "confidence_score": 1.0
+      "target": "data_analyst_agent_response_r\u00e9ponse"
     },
     {
       "relation": "imports",
@@ -1922,9 +4824,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph",
-      "target": "db_base_database",
-      "confidence_score": 1.0
+      "target": "db_base_database"
     },
     {
       "relation": "imports",
@@ -1933,9 +4835,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph",
-      "target": "db_sqlite_connect_sqlite",
-      "confidence_score": 1.0
+      "target": "db_sqlite_connect_sqlite"
     },
     {
       "relation": "imports",
@@ -1944,9 +4846,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph",
-      "target": "model_mistral_appeloutil",
-      "confidence_score": 1.0
+      "target": "model_mistral_appeloutil"
     },
     {
       "relation": "imports",
@@ -1955,9 +4857,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph",
-      "target": "model_mistral_call_model",
-      "confidence_score": 1.0
+      "target": "model_mistral_call_model"
     },
     {
       "relation": "references",
@@ -1985,11 +4887,11 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L29",
+      "source_location": "L30",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agent_graph_rationale_29",
-      "target": "agent_graph_state"
+      "source": "agent_graph_rationale_30",
+      "target": "agent_graph_state",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2003,6 +4905,16 @@
       "target": "agent_graph_state"
     },
     {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L24",
+      "weight": 0.8,
+      "source": "agent_graph_state",
+      "target": "agent_tools_ex\u00e9coutil",
+      "confidence_score": 0.5
+    },
+    {
       "relation": "inherits",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
@@ -2011,6 +4923,17 @@
       "confidence_score": 1.0,
       "source": "agent_graph_state",
       "target": "typeddict"
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "agent_graph_\u00e9tat_initial",
+      "target": "agent_graph_state",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -2030,9 +4953,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph_n\u0153ud_agent",
-      "target": "model_mistral_call_model",
-      "confidence_score": 1.0
+      "target": "model_mistral_call_model"
     },
     {
       "relation": "calls",
@@ -2063,9 +4986,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph_faire_n\u0153ud_outils",
-      "target": "db_base_database",
-      "confidence_score": 1.0
+      "target": "db_base_database"
     },
     {
       "relation": "calls",
@@ -2074,9 +4997,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L77",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph_faire_n\u0153ud_outils",
-      "target": "model_mistral_appeloutil",
-      "confidence_score": 1.0
+      "target": "model_mistral_appeloutil"
     },
     {
       "relation": "calls",
@@ -2107,19 +5030,19 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph_construire_agent",
-      "target": "db_base_database",
-      "confidence_score": 1.0
+      "target": "db_base_database"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L106",
+      "source_location": "L112",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agent_graph_rationale_106",
-      "target": "agent_graph_construire_agent"
+      "source": "agent_graph_rationale_112",
+      "target": "agent_graph_construire_agent",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -2128,9 +5051,9 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph_agent_par_d\u00e9faut",
-      "target": "db_sqlite_connect_sqlite",
-      "confidence_score": 1.0
+      "target": "db_sqlite_connect_sqlite"
     },
     {
       "relation": "calls",
@@ -2148,11 +5071,33 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L196",
+      "weight": 1.0,
+      "source": "agent_graph_ask_stream",
+      "target": "agent_graph_agent_par_d\u00e9faut",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L164",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "agent_graph_ask",
       "target": "agent_graph_projeter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "agent_graph_ask_stream",
+      "target": "agent_graph_projeter",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2161,29 +5106,40 @@
       "source_file": "src/data_analyst_agent/agent/graph.py",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_graph_projeter",
-      "target": "data_analyst_agent_response_r\u00e9ponse",
-      "confidence_score": 1.0
+      "target": "data_analyst_agent_response_r\u00e9ponse"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L129",
+      "source_location": "L135",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agent_graph_rationale_129",
-      "target": "agent_graph_projeter"
+      "source": "agent_graph_rationale_135",
+      "target": "agent_graph_projeter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "agent_graph_ask_stream",
+      "target": "agent_graph_\u00e9tat_initial",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
-      "context": "return_type",
+      "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L142",
+      "source_location": "L148",
       "weight": 1.0,
-      "source": "agent_graph_ask",
-      "target": "data_analyst_agent_response_r\u00e9ponse",
+      "source": "agent_graph_\u00e9tat_initial",
+      "target": "message",
       "confidence_score": 1.0
     },
     {
@@ -2198,25 +5154,15 @@
       "target": "message"
     },
     {
-      "relation": "rationale_for",
+      "relation": "references",
+      "context": "generic_arg",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/graph.py",
-      "source_location": "L143",
+      "source_location": "L186",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agent_graph_rationale_143",
-      "target": "agent_graph_ask"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "src/eval/run.py",
-      "source_location": "L39",
-      "weight": 1.0,
-      "source": "eval_run_lancer",
-      "target": "agent_graph_ask"
+      "source": "agent_graph_ask_stream",
+      "target": "message",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2228,6 +5174,123 @@
       "confidence_score": 1.0,
       "source": "model_mistral_call_model",
       "target": "message"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "agent_graph_ask_stream",
+      "target": "agent_graph_flux_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "agent_graph_rationale_168",
+      "target": "agent_graph_flux_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L213",
+      "weight": 1.0,
+      "source": "agent_graph_ask_stream",
+      "target": "agent_graph_flux_outils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "agent_graph_rationale_179",
+      "target": "agent_graph_flux_outils",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L226",
+      "weight": 1.0,
+      "source": "agent_graph_ask",
+      "target": "agent_graph_ask_stream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "agent_graph_rationale_189",
+      "target": "agent_graph_ask_stream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "agent_graph_ask_stream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "api_app_flux_sse",
+      "target": "agent_graph_ask_stream",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L142",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agent_graph_ask",
+      "target": "data_analyst_agent_response_r\u00e9ponse"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/agent/graph.py",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "agent_graph_rationale_219",
+      "target": "agent_graph_ask",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/eval/run.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "eval_run_lancer",
+      "target": "agent_graph_ask"
     },
     {
       "relation": "contains",
@@ -2337,9 +5400,9 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools",
-      "target": "db_base_database",
-      "confidence_score": 1.0
+      "target": "db_base_database"
     },
     {
       "relation": "imports_from",
@@ -2359,9 +5422,9 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools",
-      "target": "db_result_\u00e9chec",
-      "confidence_score": 1.0
+      "target": "db_result_\u00e9chec"
     },
     {
       "relation": "imports",
@@ -2370,9 +5433,9 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools",
-      "target": "model_mistral_appeloutil",
-      "confidence_score": 1.0
+      "target": "model_mistral_appeloutil"
     },
     {
       "relation": "imports",
@@ -2381,9 +5444,9 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools",
-      "target": "model_mistral_toolspec",
-      "confidence_score": 1.0
+      "target": "model_mistral_toolspec"
     },
     {
       "relation": "references",
@@ -2424,19 +5487,19 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools_lignes_dicts",
-      "target": "db_result_result",
-      "confidence_score": 1.0
+      "target": "db_result_result"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L68",
+      "source_location": "L76",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agent_tools_rationale_68",
-      "target": "agent_tools_lignes_dicts"
+      "source": "agent_tools_rationale_76",
+      "target": "agent_tools_lignes_dicts",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -2456,9 +5519,9 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools_s\u00e9rialiser_result",
-      "target": "db_result_result",
-      "confidence_score": 1.0
+      "target": "db_result_result"
     },
     {
       "relation": "calls",
@@ -2478,9 +5541,9 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools_s\u00e9rialiser_\u00e9chec",
-      "target": "db_result_\u00e9chec",
-      "confidence_score": 1.0
+      "target": "db_result_\u00e9chec"
     },
     {
       "relation": "references",
@@ -2489,9 +5552,9 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools_ex\u00e9cuter",
-      "target": "db_base_database",
-      "confidence_score": 1.0
+      "target": "db_base_database"
     },
     {
       "relation": "references",
@@ -2500,19 +5563,19 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L90",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools_ex\u00e9cuter",
-      "target": "model_mistral_appeloutil",
-      "confidence_score": 1.0
+      "target": "model_mistral_appeloutil"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L91",
+      "source_location": "L99",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agent_tools_rationale_91",
-      "target": "agent_tools_ex\u00e9cuter"
+      "source": "agent_tools_rationale_99",
+      "target": "agent_tools_ex\u00e9cuter",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -2521,19 +5584,303 @@
       "source_file": "src/data_analyst_agent/agent/tools.py",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agent_tools_extraire_submit",
-      "target": "model_mistral_appeloutil",
-      "confidence_score": 1.0
+      "target": "model_mistral_appeloutil"
     },
     {
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "src/data_analyst_agent/agent/tools.py",
-      "source_location": "L115",
+      "source_location": "L127",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "agent_tools_rationale_115",
-      "target": "agent_tools_extraire_submit"
+      "source": "agent_tools_rationale_127",
+      "target": "agent_tools_extraire_submit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "api_init",
+      "target": "api_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/__init__.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "api_init",
+      "target": "api_app_cr\u00e9er_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/__main__.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "api_main",
+      "target": "api_main_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "api_app_cr\u00e9er_app",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "api_app_flux_sse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "api_app_questionentr\u00e9e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "api_app_sse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "api_translate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "api_translate_\u00e9v\u00e9nement_en_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "api_app",
+      "target": "fastapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "api_app_questionentr\u00e9e",
+      "target": "basemodel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "api_app_rationale_37",
+      "target": "api_app_questionentr\u00e9e",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "api_app_flux_sse",
+      "target": "api_app_sse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "api_app_rationale_43",
+      "target": "api_app_sse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "api_app_flux_sse",
+      "target": "api_translate_\u00e9v\u00e9nement_en_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "api_app_rationale_52",
+      "target": "api_app_flux_sse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/app.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "api_app_cr\u00e9er_app",
+      "target": "fastapi",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "api_translate_r\u00e9ponse_en_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "api_translate_\u00e9v\u00e9nement_en_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "data_analyst_agent_response",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "api_translate",
+      "target": "data_analyst_agent_response_r\u00e9ponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "api_translate_rationale_28",
+      "target": "api_translate_r\u00e9ponse_en_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "api_translate_r\u00e9ponse_en_dict",
+      "target": "any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "api_translate_r\u00e9ponse_en_dict",
+      "target": "data_analyst_agent_response_r\u00e9ponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "api_translate_\u00e9v\u00e9nement_en_dict",
+      "target": "api_translate_r\u00e9ponse_en_dict",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "generic_arg",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "api_translate_\u00e9v\u00e9nement_en_dict",
+      "target": "any",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "src/data_analyst_agent/api/translate.py",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "api_translate_rationale_39",
+      "target": "api_translate_\u00e9v\u00e9nement_en_dict",
+      "confidence_score": 1.0
     },
     {
       "relation": "re_exports",
@@ -3997,14 +7344,114 @@
       "target": "claude_graphify"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_design",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "docs_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_data_analyst_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "readme_data_analyst_agent",
+      "target": "readme_architecture_fronti\u00e8re_de_d\u00e9pendance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "readme_data_analyst_agent",
+      "target": "readme_endpoints",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "readme_data_analyst_agent",
+      "target": "readme_lancer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "readme_data_analyst_agent",
+      "target": "readme_pr\u00e9requis",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "readme_data_analyst_agent",
+      "target": "readme_\u00e9val",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "readme_lancer",
+      "target": "readme_mode_d\u00e9mo_un_seul_process_une_commande",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "readme_lancer",
+      "target": "readme_mode_d\u00e9veloppement_deux_process_rechargement_\u00e0_chaud",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design",
-      "target": "docs_design_system_design_data_analyst_agent",
-      "confidence_score": 1.0
+      "target": "docs_design_system_design_data_analyst_agent"
     },
     {
       "relation": "references",
@@ -4012,9 +7459,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design",
-      "target": "docs_scope",
-      "confidence_score": 1.0
+      "target": "docs_scope"
     },
     {
       "relation": "contains",
@@ -4022,9 +7469,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L319",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_10_ordre_de_construction_raffine_scope_ordre_de_construction",
-      "confidence_score": 1.0
+      "target": "docs_design_10_ordre_de_construction_raffine_scope_ordre_de_construction"
     },
     {
       "relation": "contains",
@@ -4032,9 +7479,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_1_les_4_modules_et_la_r\u00e8gle_de_d\u00e9pendance",
-      "confidence_score": 1.0
+      "target": "docs_design_1_les_4_modules_et_la_r\u00e8gle_de_d\u00e9pendance"
     },
     {
       "relation": "contains",
@@ -4042,9 +7489,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_2_arborescence",
-      "confidence_score": 1.0
+      "target": "docs_design_2_arborescence"
     },
     {
       "relation": "contains",
@@ -4052,9 +7499,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_3_types_partag\u00e9s_et_internes",
-      "confidence_score": 1.0
+      "target": "docs_design_3_types_partag\u00e9s_et_internes"
     },
     {
       "relation": "contains",
@@ -4062,9 +7509,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_4_fronti\u00e8res_d\u00e9licates_les_d\u00e9cisions_qui_emp\u00eachent_le_spaghetti",
-      "confidence_score": 1.0
+      "target": "docs_design_4_fronti\u00e8res_d\u00e9licates_les_d\u00e9cisions_qui_emp\u00eachent_le_spaghetti"
     },
     {
       "relation": "contains",
@@ -4072,9 +7519,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_5_strat\u00e9gie_d_erreurs_define_errors_out_of_existence",
-      "confidence_score": 1.0
+      "target": "docs_design_5_strat\u00e9gie_d_erreurs_define_errors_out_of_existence"
     },
     {
       "relation": "contains",
@@ -4082,9 +7529,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_6_topologie_du_graphe_agent_graph_py",
-      "confidence_score": 1.0
+      "target": "docs_design_6_topologie_du_graphe_agent_graph_py"
     },
     {
       "relation": "contains",
@@ -4092,9 +7539,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L250",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_7_assemblage_du_prompt_agent_prompt_py_agent_dialects",
-      "confidence_score": 1.0
+      "target": "docs_design_7_assemblage_du_prompt_agent_prompt_py_agent_dialects"
     },
     {
       "relation": "contains",
@@ -4102,9 +7549,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L269",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_8_harnais_d_\u00e9val_eval",
-      "confidence_score": 1.0
+      "target": "docs_design_8_harnais_d_\u00e9val_eval"
     },
     {
       "relation": "contains",
@@ -4112,9 +7559,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L298",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_system_design_data_analyst_agent",
-      "target": "docs_design_9_anticipation_de_la_gui_couture_pas_b\u00e9ton",
-      "confidence_score": 1.0
+      "target": "docs_design_9_anticipation_de_la_gui_couture_pas_b\u00e9ton"
     },
     {
       "relation": "contains",
@@ -4122,9 +7569,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L153",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_3_types_partag\u00e9s_et_internes",
-      "target": "docs_design_interne_\u00e0_agent_agent_graph_py",
-      "confidence_score": 1.0
+      "target": "docs_design_interne_\u00e0_agent_agent_graph_py"
     },
     {
       "relation": "contains",
@@ -4132,9 +7579,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_3_types_partag\u00e9s_et_internes",
-      "target": "docs_design_interne_\u00e0_db_db_result_py",
-      "confidence_score": 1.0
+      "target": "docs_design_interne_\u00e0_db_db_result_py"
     },
     {
       "relation": "contains",
@@ -4142,9 +7589,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_3_types_partag\u00e9s_et_internes",
-      "target": "docs_design_interne_\u00e0_model_model",
-      "confidence_score": 1.0
+      "target": "docs_design_interne_\u00e0_model_model"
     },
     {
       "relation": "contains",
@@ -4152,9 +7599,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_3_types_partag\u00e9s_et_internes",
-      "target": "docs_design_public_franchit_la_fronti\u00e8re_du_module_response_py",
-      "confidence_score": 1.0
+      "target": "docs_design_public_franchit_la_fronti\u00e8re_du_module_response_py"
     },
     {
       "relation": "contains",
@@ -4162,9 +7609,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L194",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_4_fronti\u00e8res_d\u00e9licates_les_d\u00e9cisions_qui_emp\u00eachent_le_spaghetti",
-      "target": "docs_design_call_model_niveau_b_pragmatique",
-      "confidence_score": 1.0
+      "target": "docs_design_call_model_niveau_b_pragmatique"
     },
     {
       "relation": "contains",
@@ -4172,9 +7619,9 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_4_fronti\u00e8res_d\u00e9licates_les_d\u00e9cisions_qui_emp\u00eachent_le_spaghetti",
-      "target": "docs_design_db_expose_son_dialecte_il_ne_conna\u00eet_pas_les_fiches",
-      "confidence_score": 1.0
+      "target": "docs_design_db_expose_son_dialecte_il_ne_conna\u00eet_pas_les_fiches"
     },
     {
       "relation": "contains",
@@ -4182,8 +7629,68 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L175",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_design_4_fronti\u00e8res_d\u00e9licates_les_d\u00e9cisions_qui_emp\u00eachent_le_spaghetti",
-      "target": "docs_design_les_4_outils_ne_sont_pas_un_module_ce_sont_des_adaptateurs_fins_agent_tools_py",
+      "target": "docs_design_les_4_outils_ne_sont_pas_un_module_ce_sont_des_adaptateurs_fins_agent_tools_py"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_handoff_frontend",
+      "target": "docs_handoff_frontend_handoff_impl\u00e9mentation_frontend_data_analyst_agent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_handoff_frontend_handoff_impl\u00e9mentation_frontend_data_analyst_agent",
+      "target": "docs_handoff_frontend_contexte",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_handoff_frontend_handoff_impl\u00e9mentation_frontend_data_analyst_agent",
+      "target": "docs_handoff_frontend_d\u00e9cisions_verrouill\u00e9es_ne_pas_re_litiger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_handoff_frontend_handoff_impl\u00e9mentation_frontend_data_analyst_agent",
+      "target": "docs_handoff_frontend_ordre_de_construction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_handoff_frontend_handoff_impl\u00e9mentation_frontend_data_analyst_agent",
+      "target": "docs_handoff_frontend_pi\u00e8ges_connus_points_de_vigilance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/HANDOFF-frontend.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "docs_handoff_frontend_handoff_impl\u00e9mentation_frontend_data_analyst_agent",
+      "target": "docs_handoff_frontend_suggested_skills",
       "confidence_score": 1.0
     },
     {
@@ -4192,9 +7699,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope",
-      "target": "docs_scope_scope_data_analyst_agent",
-      "confidence_score": 1.0
+      "target": "docs_scope_scope_data_analyst_agent"
     },
     {
       "relation": "contains",
@@ -4202,9 +7709,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_scope_data_analyst_agent",
-      "target": "docs_scope_coutures_anticipant_la_gui_construites_maintenant_exploit\u00e9es_plus_tard",
-      "confidence_score": 1.0
+      "target": "docs_scope_coutures_anticipant_la_gui_construites_maintenant_exploit\u00e9es_plus_tard"
     },
     {
       "relation": "contains",
@@ -4212,9 +7719,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L128",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_scope_data_analyst_agent",
-      "target": "docs_scope_hors_scope_cette_phase",
-      "confidence_score": 1.0
+      "target": "docs_scope_hors_scope_cette_phase"
     },
     {
       "relation": "contains",
@@ -4222,9 +7729,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_scope_data_analyst_agent",
-      "target": "docs_scope_les_11_d\u00e9cisions",
-      "confidence_score": 1.0
+      "target": "docs_scope_les_11_d\u00e9cisions"
     },
     {
       "relation": "contains",
@@ -4232,9 +7739,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_scope_data_analyst_agent",
-      "target": "docs_scope_ordre_de_construction",
-      "confidence_score": 1.0
+      "target": "docs_scope_ordre_de_construction"
     },
     {
       "relation": "contains",
@@ -4242,9 +7749,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_scope_data_analyst_agent",
-      "target": "docs_scope_vision",
-      "confidence_score": 1.0
+      "target": "docs_scope_vision"
     },
     {
       "relation": "contains",
@@ -4252,9 +7759,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_10_dialecte_inconnu",
-      "confidence_score": 1.0
+      "target": "docs_scope_10_dialecte_inconnu"
     },
     {
       "relation": "contains",
@@ -4262,9 +7769,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_11_langue_\u00e9tat",
-      "confidence_score": 1.0
+      "target": "docs_scope_11_langue_\u00e9tat"
     },
     {
       "relation": "contains",
@@ -4272,9 +7779,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_1_source_de_donn\u00e9es",
-      "confidence_score": 1.0
+      "target": "docs_scope_1_source_de_donn\u00e9es"
     },
     {
       "relation": "contains",
@@ -4282,9 +7789,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_2_nature_de_l_agent",
-      "confidence_score": 1.0
+      "target": "docs_scope_2_nature_de_l_agent"
     },
     {
       "relation": "contains",
@@ -4292,9 +7799,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_3_type_de_retour",
-      "confidence_score": 1.0
+      "target": "docs_scope_3_type_de_retour"
     },
     {
       "relation": "contains",
@@ -4302,9 +7809,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_4_\u00e9valuation_golden_set_d_abord",
-      "confidence_score": 1.0
+      "target": "docs_scope_4_\u00e9valuation_golden_set_d_abord"
     },
     {
       "relation": "contains",
@@ -4312,9 +7819,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_5_framework",
-      "confidence_score": 1.0
+      "target": "docs_scope_5_framework"
     },
     {
       "relation": "contains",
@@ -4322,9 +7829,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_6_s\u00e9curit\u00e9_d\u00e9fense_m\u00e9canique_ne_d\u00e9pend_jamais_du_llm",
-      "confidence_score": 1.0
+      "target": "docs_scope_6_s\u00e9curit\u00e9_d\u00e9fense_m\u00e9canique_ne_d\u00e9pend_jamais_du_llm"
     },
     {
       "relation": "contains",
@@ -4332,9 +7839,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_7_terminaison",
-      "confidence_score": 1.0
+      "target": "docs_scope_7_terminaison"
     },
     {
       "relation": "contains",
@@ -4342,9 +7849,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_8_outils_sch\u00e9ma",
-      "confidence_score": 1.0
+      "target": "docs_scope_8_outils_sch\u00e9ma"
     },
     {
       "relation": "contains",
@@ -4352,9 +7859,9 @@
       "source_file": "docs/SCOPE.md",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_scope_les_11_d\u00e9cisions",
-      "target": "docs_scope_9_dialecte_sql",
-      "confidence_score": 1.0
+      "target": "docs_scope_9_dialecte_sql"
     },
     {
       "relation": "contains",
@@ -4362,9 +7869,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s"
     },
     {
       "relation": "contains",
@@ -4372,9 +7879,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_avantages_des_helpers_pr\u00e9fabriqu\u00e9s",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_avantages_des_helpers_pr\u00e9fabriqu\u00e9s"
     },
     {
       "relation": "contains",
@@ -4382,9 +7889,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite"
     },
     {
       "relation": "contains",
@@ -4392,9 +7899,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_des_helpers_pr\u00e9fabriqu\u00e9s",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_des_helpers_pr\u00e9fabriqu\u00e9s"
     },
     {
       "relation": "contains",
@@ -4402,9 +7909,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_du_graphe_explicite",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_du_graphe_explicite"
     },
     {
       "relation": "contains",
@@ -4412,9 +7919,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_les_deux_niveaux_d_abstraction",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_les_deux_niveaux_d_abstraction"
     },
     {
       "relation": "contains",
@@ -4422,9 +7929,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_langgraph_graphe_explicite_vs_helpers_pr\u00e9fabriqu\u00e9s",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_synth\u00e8se_pour_ce_projet",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_synth\u00e8se_pour_ce_projet"
     },
     {
       "relation": "contains",
@@ -4432,9 +7939,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_1_le_type_de_retour_est_le_tien",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_1_le_type_de_retour_est_le_tien"
     },
     {
       "relation": "contains",
@@ -4442,9 +7949,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_2_le_refus_de_r\u00e9pondre_palier_5_devient_possible",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_2_le_refus_de_r\u00e9pondre_palier_5_devient_possible"
     },
     {
       "relation": "contains",
@@ -4452,9 +7959,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_3_la_double_troncature_50_lignes_llm_10_000_donn\u00e9es",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_3_la_double_troncature_50_lignes_llm_10_000_donn\u00e9es"
     },
     {
       "relation": "contains",
@@ -4462,9 +7969,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_4_debugging_transparent",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_4_debugging_transparent"
     },
     {
       "relation": "contains",
@@ -4472,9 +7979,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L68",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_5_contr\u00f4le_du_budget_et_de_l_arr\u00eat",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_5_contr\u00f4le_du_budget_et_de_l_arr\u00eat"
     },
     {
       "relation": "contains",
@@ -4482,9 +7989,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_avantages_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_6_valeur_portfolio_r\u00e9elle",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_6_valeur_portfolio_r\u00e9elle"
     },
     {
       "relation": "contains",
@@ -4492,9 +7999,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_1_plus_de_code_au_d\u00e9marrage",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_1_plus_de_code_au_d\u00e9marrage"
     },
     {
       "relation": "contains",
@@ -4502,9 +8009,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_2_courbe_d_apprentissage_langgraph",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_2_courbe_d_apprentissage_langgraph"
     },
     {
       "relation": "contains",
@@ -4512,9 +8019,9 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_3_on_r\u00e9\u00e9crit_des_choses_d\u00e9j\u00e0_r\u00e9solues",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_3_on_r\u00e9\u00e9crit_des_choses_d\u00e9j\u00e0_r\u00e9solues"
     },
     {
       "relation": "contains",
@@ -4522,9 +8029,89 @@
       "source_file": "notes/langgraph-graph-explicite-vs-helpers.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "notes_langgraph_graph_explicite_vs_helpers_inconv\u00e9nients_du_graphe_explicite",
-      "target": "notes_langgraph_graph_explicite_vs_helpers_4_surface_de_bug_plus_grande",
-      "confidence_score": 1.0
+      "target": "notes_langgraph_graph_explicite_vs_helpers_4_surface_de_bug_plus_grande"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation",
+      "target": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "target": "notes_rapport_implementation_ce_qui_a_\u00e9t\u00e9_construit_ordre_du_design_10"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L83",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "target": "notes_rapport_implementation_ce_qui_n_a_pas_\u00e9t\u00e9_test\u00e9"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "target": "notes_rapport_implementation_configuration_mise_en_place"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "target": "notes_rapport_implementation_d\u00e9cisions_prises_en_autonomie_\u00e0_valider"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "target": "notes_rapport_implementation_les_2_\u00e9checs_r\u00e9siduels_sous_le_seuil_de_tol\u00e9rance_non_bloquants"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "target": "notes_rapport_implementation_pour_relancer_toi_m\u00eame"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "notes/rapport-implementation.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "notes_rapport_implementation_rapport_d_impl\u00e9mentation_data_analyst_agent",
+      "target": "notes_rapport_implementation_verdict"
     },
     {
       "relation": "contains",
@@ -4558,5 +8145,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "1aaa04ee787621310ed229c77e703f9d9e38f994"
+  "built_at_commit": "c631d339402a91b30ef1a27c0132c02368e66840"
 }

@@ -10,7 +10,7 @@ Le vocabulaire LangChain (AIMessage, ToolMessage, add_messages) reste confiné i
 from __future__ import annotations
 
 import operator
-from typing import Annotated, Literal, Optional, TypedDict
+from typing import Annotated, Iterator, Literal, Optional, TypedDict
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage, ToolMessage
 from langgraph.graph import END, START, StateGraph
@@ -19,8 +19,9 @@ from langgraph.graph.message import add_messages
 from ..db import Database, connect_sqlite
 from ..model import AppelOutil, Message, call_model
 from ..response import Réponse
+from .events import Événement, Final, Hypothèse, OutilAppelé, RésultatOutil
 from .prompt import construire_prompt_système
-from .tools import SPECS, SUBMIT_ANSWER, exécuter, extraire_submit
+from .tools import SPECS, SUBMIT_ANSWER, ExécOutil, exécuter, extraire_submit
 
 BUDGET = 10  # nb max d'appels au modèle avant sortie forcée (SCOPE §7)
 
@@ -33,6 +34,7 @@ class State(TypedDict):
     tours: int                                           # compteur de budget
     sql_exécuté: Annotated[list[str], operator.add]      # accumulé par le nœud outils
     dernier_résultat: Optional[list[dict]]               # dernier run_query réussi → données
+    exéc_outils: list[ExécOutil]                         # transitoire : source des événements de streaming
     # champs de sortie, écrits par submit_answer (via le nœud agent) :
     prose: str
     données: Optional[list[dict]]
@@ -71,17 +73,21 @@ def _faire_nœud_outils(db: Database):
         messages: list[ToolMessage] = []
         sqls: list[str] = []
         dernier_res: Optional[list[dict]] = None
+        exécs: list[ExécOutil] = []
         for tc in appels:
             if tc["name"] == SUBMIT_ANSWER:
                 continue  # terminal, traité au routeur
             appel = AppelOutil(nom=tc["name"], args=tc.get("args") or {}, id=tc.get("id") or "")
             ex = exécuter(db, appel)
+            exécs.append(ex)
             messages.append(ToolMessage(content=ex.texte, tool_call_id=appel.id))
             if ex.sql:
                 sqls.append(ex.sql)
             if ex.résultat is not None:
                 dernier_res = ex.résultat
-        updates: dict = {"historique": messages}
+        # exéc_outils est remplacé (pas accumulé) : c'est le delta de CE passage,
+        # lu par ask_stream pour émettre les RésultatOutil. Ignoré par ask().
+        updates: dict = {"historique": messages, "exéc_outils": exécs}
         if sqls:
             updates["sql_exécuté"] = sqls  # reducer operator.add → accumulation
         if dernier_res is not None:
@@ -139,26 +145,85 @@ def _projeter(final: State) -> Réponse:
     )
 
 
-def ask(question: str, historique: Optional[list[Message]] = None) -> Réponse:
-    """Interface publique du module agent. Fonction (presque) pure : pose une
-    question, rend une `Réponse`. `historique` préparé pour le conversationnel
-    (sans état pour l'instant — SCOPE §11)."""
-    graphe, prompt = _agent_par_défaut()
+def _état_initial(question: str, historique: Optional[list[Message]], prompt: str) -> State:
     messages: list[Message] = [SystemMessage(content=prompt)]
     if historique:
         messages.extend(historique)
     messages.append(HumanMessage(content=question))
-
-    état0: State = {
+    return {
         "question": question,
         "historique": messages,
         "tours": 0,
         "sql_exécuté": [],
         "dernier_résultat": None,
+        "exéc_outils": [],
         "prose": "",
         "données": None,
         "hypothèses": [],
         "statut": "",
     }
-    final = graphe.invoke(état0, config={"recursion_limit": 4 * BUDGET})
-    return _projeter(final)  # type: ignore[arg-type]
+
+
+def _flux_agent(update: dict) -> Iterator[Événement]:
+    """Traduit un update du nœud `agent` en événements (outils appelés, hypothèses)."""
+    for msg in update.get("historique") or []:
+        for tc in getattr(msg, "tool_calls", None) or []:
+            if tc["name"] != SUBMIT_ANSWER:
+                yield OutilAppelé(nom=tc["name"], args=tc.get("args") or {})
+    # submit_answer détecté → l'update porte les hypothèses retenues.
+    for h in update.get("hypothèses") or []:
+        yield Hypothèse(texte=str(h))
+
+
+def _flux_outils(update: dict) -> Iterator[Événement]:
+    """Traduit un update du nœud `outils` : un RésultatOutil par run_query exécuté."""
+    for ex in update.get("exéc_outils") or []:
+        if ex.sql is not None:  # seul run_query porte du SQL (DESIGN décision 3)
+            yield RésultatOutil(sql=ex.sql, statut=ex.statut,  # type: ignore[arg-type]
+                                lignes=ex.lignes, message=ex.message)
+
+
+def ask_stream(
+    question: str, historique: Optional[list[Message]] = None
+) -> Iterator[Événement]:
+    """Primitive publique du module agent : diffuse la trace ReAct en direct.
+
+    Émet des `Événement` maison (`OutilAppelé`, `RésultatOutil`, `Hypothèse`) au
+    fil de la boucle, puis un `Final` portant la `Réponse` projetée. Source de
+    vérité unique : `ask()` et l'UI empruntent ce même chemin (DESIGN décision 11).
+    Les objets LangChain sont traduits ici et ne franchissent jamais la frontière.
+    """
+    graphe, prompt = _agent_par_défaut()
+    état0 = _état_initial(question, historique, prompt)
+
+    final_state: dict = dict(état0)
+    # deux modes : `updates` porte le delta de chaque nœud (→ événements de trace),
+    # `values` porte l'état complet accumulé (→ projection finale via _projeter).
+    for mode, chunk in graphe.stream(
+        état0, config={"recursion_limit": 4 * BUDGET},
+        stream_mode=["updates", "values"],
+    ):
+        if mode == "values":
+            final_state = chunk
+            continue
+        for nœud, update in chunk.items():
+            if nœud == "agent":
+                yield from _flux_agent(update)
+            elif nœud == "outils":
+                yield from _flux_outils(update)
+
+    yield Final(réponse=_projeter(final_state))  # type: ignore[arg-type]
+
+
+def ask(question: str, historique: Optional[list[Message]] = None) -> Réponse:
+    """Interface publique du module agent. Fonction (presque) pure : pose une
+    question, rend une `Réponse`. `historique` préparé pour le conversationnel
+    (sans état pour l'instant — SCOPE §11).
+
+    Réécrite en drain-to-final au-dessus de `ask_stream()` : elle consomme le flux
+    et renvoie la `Réponse` du `Final`. Une seule source de vérité (DESIGN décision 11)."""
+    réponse = Réponse(prose="", statut="budget_dépassé")
+    for évén in ask_stream(question, historique):
+        if isinstance(évén, Final):
+            réponse = évén.réponse
+    return réponse

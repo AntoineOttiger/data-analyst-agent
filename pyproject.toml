@@ -18,6 +18,12 @@ dependencies = [
 dev = [
     "pytest>=8",
 ]
+# Couche HTTP (DESIGN §9). SSE fait maison → pas de sse-starlette. Installer avec
+#   pip install -e ".[api]"
+api = [
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+]
 
 [tool.setuptools]
 package-dir = {"" = "src"}
